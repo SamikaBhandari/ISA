@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url("buil.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#home{
+    width:100%;
+    height:100vh;
+    box-sizing:border-box;
+     }
+.text{
+   font-size:4em; 
+   color: rgb(227, 220, 220);
+   text-align: center;
+   padding:20%;
+   font-style: italic;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    background-color: 2px 2px 12px rgba(0, 0, 0, 0.05);
+    z-index:1;
+}
+.navlist{
+    display: flex;
+}
+.navlist li a{
+    padding: 10px 15px;
+    color: rgb(227, 220, 220);
+    font-size:12px;
+}
+.logo{
+    font-size:25px;
+    font-weight: bold;
+    color: rgb(227, 220, 220);
+    font-family:sans-serif;
+}
+.navlist li a:hover,
+.active{
+    background-color: #040303;
+    color:#FFFFFF;
+    font-weight: 700;
+    transition: all ease 0.4s;
+}
+
+.contact{
+    font-family: sans-serif;
+    width:500px;
+    position:absolute;
+    left:20%;
+    top:50%;
+    transform: translate(30%,-50%);
+    text-align: justify;
+}
+.contact .content{
+    max-width:800px;
+    text-align:center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color:#fff;
+}
+.contact .content p{
+    font-weight:300;
+    color:#fff;
+}
+.social{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a{
+    height:50px;
+    width: 50px;
+    background-color:whitesmoke;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    line-height: 50px;
+    transform: translate(-60%, 320%);
+
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-linkedin{
+    color: #0097e6;
+}
+
+
+
+
+
+
+
